@@ -9,7 +9,7 @@ public class Main {
 		try(Scanner sc = new Scanner(System.in);) {
 			System.out.println("Give the String to test");
 			String s = sc.next();
-			boolean valid = validRational(s) ;
+			boolean valid = endsWithABA(s) ;
 			
 			if (valid) {
 				System.out.println("String is valid");
